@@ -1,0 +1,9 @@
+{
+	"id": "com.jdfsoftware.leaderboard",
+	"version": "0.4.0",
+	"vendor": "JDF Software",
+	"type": "web",
+	"main": "index.html",
+	"title": "Leaderboard",
+	"icon": "icon.png"
+}

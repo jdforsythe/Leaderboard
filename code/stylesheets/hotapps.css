@@ -1,0 +1,253 @@
+body.palm-default {
+background:url(../images/bg-main.png) 0px 0px no-repeat fixed;
+z-index: -1;
+}
+
+div#list-head {
+position:fixed;
+top:0px;
+left:0px;
+height:135px;
+width:320px;
+z-index:3;
+background:url(../images/bg-head.png) 0px 0px no-repeat fixed;
+}
+
+  div#hottestApps {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:160px;
+  height:40px;
+  }
+
+  div#fastestMovs {
+  position:fixed;
+  top:0px;
+  left:160px;
+  width:160px;
+  height:40px;
+  }
+
+  div#selection {
+  position:fixed;
+  top:40px;
+  left:0px;
+  width:160px;
+  height:4px;
+  background:url(../images/selection.png) 0px 0px no-repeat fixed;
+  z-index:10;
+  }
+
+/* moves to left:160px; when fastest movers is selected */
+
+  div#freeApps {
+  position:fixed;
+  top:60px;
+  left:0px;
+  width:80px;
+  height:75px;
+  }
+
+  div#paidApps {
+  position:fixed;
+  top:60px;
+  left:240px;
+  width:80px;
+  height:75px;
+  }
+
+  div#spinny {
+  position:fixed;
+  top:81px;
+  left:144px;
+  width:32px;
+  height:32px;
+  }
+
+  .cost-selected {
+  background:url(../images/cost-selected.png) 0px 0px no-repeat fixed;
+  }
+
+  .cost-not-selected {
+  background:transparent;
+  }
+
+
+/* styles for the list */
+
+div#container {
+padding-top:160px;
+width:320px;
+height:auto;
+z-index:2;
+font-size:0.8em;
+}
+
+a {
+text-decoration:none;
+}
+
+div.listItem {
+width:320px;
+height:70px;
+padding:5px;
+margin-bottom:20px;
+}
+
+div.appTitle {
+width:320px;
+height:20px;
+float:left;
+clear:right;
+}
+
+div.row2 {
+width:320px;
+height:40px;
+float:left;
+clear:both;
+}
+
+	div.iconImg {
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:5px;
+	padding-right:5px;
+	width:42px;
+	height:40px;
+	float:left;
+	}
+
+		div.iconImg img {
+		width:32px;
+		height:32px;
+		}
+
+	div.movements {
+	width:115px;
+	height:40px;
+	float:left;
+	}
+
+		div.dailyRow {
+		width:115px;
+		height:20px;
+		float:left;
+		clear:right;
+		}
+
+			div.todayLabel {
+			width:55px;
+			height:20px;
+			float:left;
+			}
+
+			div.todayArrow {
+			width:15px;
+			height:20px;
+			float:left;
+			}
+
+			div.todayMovement {
+			width:45px;
+			height:20px;
+			float:left;
+			}
+
+		div.weeklyRow {
+		width:115px;
+		height:20px;
+		float:left;
+		clear:left;
+		}
+
+			div.weekLabel {
+			width:55px;
+			height:20px;
+			float:left;
+			}
+
+			div.weekArrow {
+			width:15px;
+			height:20px;
+			float:left;
+			}
+
+			div.weekMovement {
+			width:45px;
+			height:20px;
+			float:left;
+			}
+
+	div.appPrize {
+	width:75px;
+	height:40px;
+	float:left;
+	text-align:center;
+	}
+
+	div#appRank {
+	padding-left:22px;
+	width:88px;
+	height:40px;
+	float:left;
+	}
+
+div.up {
+background:url(../images/up-arrow.png) 0px 0px no-repeat fixed;
+}
+
+div.down {
+background:url(../images/down-arrow.png) 0px 0px no-repeat fixed;
+}
+
+
+
+/* numbers */
+
+div.rankNum {
+float:left;
+width:22px;
+height:40px;
+}
+
+div.zero {
+background:url(../images/numbers/0.png) 0px 0px no-repeat fixed;
+}
+
+div.one {
+background:url(../images/numbers/1.png) 0px 0px no-repeat fixed;
+}
+
+div.two {
+background:url(../images/numbers/2.png) 0px 0px no-repeat fixed;
+}
+
+div.three {
+background:url(../images/numbers/3.png) 0px 0px no-repeat fixed;
+}
+
+div.four {
+background:url(../images/numbers/4.png) 0px 0px no-repeat fixed;
+}
+
+div.five {
+background:url(../images/numbers/5.png) 0px 0px no-repeat fixed;
+}
+
+div.six {
+background:url(../images/numbers/6.png) 0px 0px no-repeat fixed;
+}
+
+div.seven {
+background:url(../images/numbers/7.png) 0px 0px no-repeat fixed;
+}
+
+div.eight {
+background:url(../images/numbers/8.png) 0px 0px no-repeat fixed;
+}
+
+div.nine {
+background:url(../images/numbers/9.png) 0px 0px no-repeat fixed;
+}
